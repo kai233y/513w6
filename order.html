@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form - Our Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Restaurant Logo" height="50">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu Items</a>
+            <a href="order.html">Order Form</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+    
+    <h2>Order Form</h2>
+    <div class="order-box">
+        <form action="order.php" method="POST">
+            <h3>Menu Order Form</h3>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" required><br><br>
+
+            <h3>Choose Your Items</h3>
+            <label for="item1">Item 1:</label>
+            <select id="item1" name="item1">
+                <option value="item1">Menu Item 1</option>
+                <option value="item2">Menu Item 2</option>
+                <option value="item3">Menu Item 3</option>
+                <option value="item4">Menu Item 4</option>
+                <option value="item5">Menu Item 5</option>
+            </select><br><br>
+
+            <label for="item2">Item 2:</label>
+            <select id="item2" name="item2">
+                <option value="item1">Menu Item 1</option>
+                <option value="item2">Menu Item 2</option>
+                <option value="item3">Menu Item 3</option>
+                <option value="item4">Menu Item 4</option>
+                <option value="item5">Menu Item 5</option>
+            </select><br><br>
+
+            <label for="item3">Item 3:</label>
+            <select id="item3" name="item3">
+                <option value="item1">Menu Item 1</option>
+                <option value="item2">Menu Item 2</option>
+                <option value="item3">Menu Item 3</option>
+                <option value="item4">Menu Item 4</option>
+                <option value="item5">Menu Item 5</option>
+            </select><br><br>
+
+            <label for="item4">Item 4:</label>
+            <select id="item4" name="item4">
+                <option value="item1">Menu Item 1</option>
+                <option value="item2">Menu Item 2</option>
+                <option value="item3">Menu Item 3</option>
+                <option value="item4">Menu Item 4</option>
+                <option value="item5">Menu Item 5</option>
+            </select><br><br>
+
+            <label for="item5">Item 5:</label>
+            <select id="item5" name="item5">
+                <option value="item1">Menu Item 1</option>
+                <option value="item2">Menu Item 2</option>
+                <option value="item3">Menu Item 3</option>
+                <option value="item4">Menu Item 4</option>
+                <option value="item5">Menu Item 5</option>
+            </select><br><br>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu Items</a>
+            <a href="order.html">Order Form</a>
+            <a href="about.html">About Us</a>
+        </div>
+        <p>&copy; 2024 Our Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
